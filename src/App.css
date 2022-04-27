@@ -1,7 +1,35 @@
 .App {
   text-align: center;
 }
+.plus{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #00b712;
+ background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+}
+.plus:hover, .minus:hover{
+  box-shadow: 2px 5px 4px rgb(63, 58, 58);
+}
 
+.minus{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color :#3f0d12;
+  background-image :linear-gradient(315deg, #ff0019 0%, #fc4c4c 74%);
+
+}
+.sign{
+  margin-top: -10px;
+  font-size: 45px;
+  color: rgb(72, 59, 59);
+ 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
